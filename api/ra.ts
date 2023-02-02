@@ -23,7 +23,7 @@ module.exports = async (request: Request, response: Response) => {
       throw `无效的音频格式：${format}`
     }
     let _body={
-     name:"zh-CN-YunxiNeural",
+     name:"zh-CN-XiaoxiaoNeural",
      text:""
     };
     try{
